@@ -44,7 +44,7 @@ export default function SheetPage() {
     <div className="min-h-screen bg-[#131313] text-gray-100">
       <Navbar searchTerm={searchTerm} setSearchTerm={setSearchTerm} streak={streak} />
       
-      <main className="px-4 md:px-8 lg:px-12 py-8 max-w-7xl mx-auto">
+      <main className="mt-20 px-4 md:px-8 lg:px-12 py-8 max-w-7xl mx-auto">
         <ReportIssueButton />
         
         {/* HERO SECTION (keeping your approved changes) */}
